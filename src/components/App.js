@@ -1,7 +1,17 @@
-import React from 'react';
+//import React from 'react';
+// const App = () => <FruitBasket />;
+// export default App;
 
+import React, { Component } from 'react';
 import FruitBasket from './FruitBasket';
 
-const App = () => <FruitBasket />;
-
-export default App;
+export default class App extends Component {
+  state = {
+    fruit: [],
+    filters: [],
+    currentFilter: null
+  };
+  render() {
+    return <div />;
+  }
+}
